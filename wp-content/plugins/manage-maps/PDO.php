@@ -10,10 +10,10 @@ class PDO2 {
 
     protected $_plugin_slug = 'manage-maps';
     private $conn;
-    private $server       = '162.243.29.14';
-    private $user         = 'centros';
-    private $passwd       = 'dfjsgf523rw';
-    private $database     = 'db_centros';
+    private $server       = '127.0.0.1';
+    private $user         = 'root';
+    private $passwd       = '';
+    private $database     = 'wordpress';
 
     public function conn(){
 
